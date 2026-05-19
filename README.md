@@ -97,38 +97,23 @@ ghg-temperature-statistical-analysis/
 ├── requirements.txt
 │
 ├── data/
-│   ├── raw/
-│   │   ├── un_ghg_emissions.csv
-│   │   └── fao_temperature_data.csv
-│   ├── interim/
-│   └── processed/
-│       └── merged_clean_dataset.csv
+│   ├── ghg_data.csv
+│   └── temp_data.csv
 │
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-│   ├── 03_normality_tests.ipynb
-│   ├── 04_correlation_analysis.ipynb
-│   ├── 05_group_comparison_tests.ipynb
-│   ├── 06_regression_analysis.ipynb
-│   └── 07_gwp_gini_analysis.ipynb
+├── notebook/
+│   └── climate_analysis_smart (latest).ipynb
 │
-├── src/
-│   ├── __init__.py
+├── results/
+│   ├── annual_emmissions_all_gases.csv
 │   ├── load_data.py
-│   ├── clean_data.py
-│   ├── merge_data.py
-│   ├── stats_tests.py
-│   ├── regression.py
-│   ├── gini.py
-│   ├── gwp.py
-│   ├── plots.py
-│   └── utils.py
+│   ├── climate_analysis_summary.json
+│   ├── dunns_test_results.csv
+│   ├── normality_tests.csv
+│   ├── temperture_correlations.csv
+│   ├── temporal_trends.csv
+│   ├── test_recommendations.csv
+│   └── variance_analysis.csv
 │
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── model_outputs/
-│
-└── reports/
-    └── final_report.pdf
+└── report/
+    └── Statistical_Analysis_of_Greenhouse_Gas_Emissions_and_Global_Temperature_Relationships Rubi Simhayov.pdf
+
