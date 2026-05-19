@@ -1,0 +1,33 @@
+{
+  "project_title": "Climate Change Analysis: Exploring Connections Between Temperature and GHG Emissions",
+  "analysis_date": "2025-09-14 15:35:46",
+  "datasets_used": [
+    "Greenhouse Gas Inventory Data (8,406 records, 1990-2014)",
+    "Environment Temperature Change Data (276,798 records, 1961-2024)"
+  ],
+  "time_period_analyzed": "1990-2014 (25 years)",
+  "countries_analyzed": 38,
+  "total_observations": 910,
+  "key_findings": [
+    "Weak negative correlation between CO2 emissions and temperature change (r = -0.074, p = 0.025)",
+    "Global emissions increased 22.5% while average temperature increased 0.77\u00b0C",
+    "Small wealthy nations show highest temperature sensitivity per emission unit",
+    "Major emitters (USA, Russia, Japan) show relatively modest temperature increases",
+    "No significant regional patterns between European and non-European countries"
+  ],
+  "hypothesis_results": {
+    "H1": "REJECTED - No positive correlation found",
+    "H2": "PARTIALLY SUPPORTED - Significant but weak correlation",
+    "H3": "INCONCLUSIVE - Mixed temporal patterns",
+    "H4": "REJECTED - No European advantage found",
+    "H5": "SUPPORTED - Both metrics show positive trends"
+  },
+  "statistical_methods": [
+    "Pearson and Spearman correlations",
+    "Linear regression analysis",
+    "Time series trend analysis",
+    "Regional comparison testing",
+    "Outlier detection using z-scores"
+  ],
+  "main_conclusion": "Climate change relationships are more complex than simple country-level emission-temperature correlations, supporting the need for global rather than local approaches to climate action."
+}

@@ -1,0 +1,6 @@
+Analysis_Type,Recommended_Test
+Group Comparison,kruskal
+Pairwise Comparison,mann_whitney
+Correlation,"spearman, kendall"
+Data_Normal,False
+Equal_Variances,False
