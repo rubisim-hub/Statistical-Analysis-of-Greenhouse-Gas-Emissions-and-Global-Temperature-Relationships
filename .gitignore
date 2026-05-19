@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Generated outputs
+outputs/figures/
+outputs/tables/
+outputs/model_outputs/
+
+# Processed/intermediate data
+data/interim/
+data/processed/
+
+# Optional large local datasets
+# Uncomment if you do NOT want raw source files in Git
+# data/raw/
+
+# Notebook exports
+*.nbconvert.ipynb
